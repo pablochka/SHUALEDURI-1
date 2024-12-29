@@ -80,7 +80,7 @@ h5 {
 }
 .whiteside-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
@@ -100,4 +100,15 @@ h5 {
 }
 li {
   list-style-type: none;
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  border-radius: 12px;
+  width: 288px;
+  height: 56px;
+}
+.continue-container {
+  border-radius: 32px;
 }
