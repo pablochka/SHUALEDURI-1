@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
+  height: 100vh;
   justify-content: center;
-  margin-top: 140px;
+  align-items: center;
+  display: flex;
+  background-color: rgba(236, 242, 255, 1);
 }
 .main-class {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(187, 12, 12);
   width: 736px;
   height: 512px;
   border-radius: 32px;
@@ -128,27 +130,30 @@ input {
   margin-left: 40px;
   margin-bottom: 46px;
 }
-.ullist-contaier ul li:first-child input {
-  background-color: Red (95% White);
+/* .ullist-contaier ul li:first-child input {
+  background-color: rgba(255, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
   padding-left: 48px;
-}
-.ullist-contaier ul li:nth-child(2) input {
-  background-color: Yellow (95% White);
+} */
+/* .ullist-contaier ul li:nth-child(2) input {
+  background-color: rgba(255, 255, 0, 0.05);
   padding-left: 48px;
-}
+} */
 .ullist-contaier ul li:nth-child(3) input {
-  background-color: Green (95% White);
+  background-color: rgba(0, 255, 0, 0.05);
+
   padding-left: 48px;
 }
 .ullist-contaier ul li:nth-child(4) input {
-  background-color: Blue (95% White);
+  background-color: rgba(0, 0, 255, 0.05);
   padding-left: 48px;
 }
 .ullist-contaier ul li:first-child ::placeholder {
-  color: rgba(255, 85, 85, 1);
+  color: red;
 }
 .ullist-contaier ul li:nth-child(2) ::placeholder {
-  color: rgba(255, 178, 30, 1);
+  color: yellow;
 }
 .ullist-contaier ul li:nth-child(3) ::placeholder {
   color: Green;
@@ -162,7 +167,7 @@ input {
   flex-direction: column;
   gap: 12px;
 }
-.ullist-contaier ul li:first-child input {
+/* li:first-child {
   background-image: url(Vector.svg);
   background-repeat: no-repeat;
   background-position: 16px center;
@@ -173,7 +178,7 @@ input {
   background-repeat: no-repeat;
   background-position: 16px center;
   top: 20px;
-}
+} */
 .ullist-contaier ul li:nth-child(3) input {
   background-image: url(iconoir_chat-remove.svg);
   background-repeat: no-repeat;
@@ -182,6 +187,41 @@ input {
 }
 .ullist-contaier ul li:nth-child(4) input {
   background-image: url(iconoir_eye-empty.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  top: 20px;
+}
+.ullist-contaier input {
+  border: 1px solid transparent;
+  outline: none;
+}
+li:nth-child(1) {
+  width: 288px;
+  height: 56px;
+  background-color: rgba(255, 0, 0, 0.05);
+  position: relative;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 48px;
+  padding-top: 17px;
+  color: red;
+}
+li:nth-child(2) {
+  width: 288px;
+  height: 56px;
+  background-color: rgba(255, 255, 0, 0.05);
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 48px;
+  padding-top: 17px;
+  color: yellow;
+  background-image: url(iconoir_brain.svg);
   background-repeat: no-repeat;
   background-position: 16px center;
   top: 20px;
