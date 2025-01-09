@@ -11,7 +11,7 @@ body {
   background-color: rgba(236, 242, 255, 1);
 }
 .main-class {
-  background-color: rgb(187, 12, 12);
+  background-color: rgb(255, 255, 255);
   width: 736px;
   height: 512px;
   border-radius: 32px;
@@ -140,7 +140,7 @@ input {
   background-color: rgba(255, 255, 0, 0.05);
   padding-left: 48px;
 } */
-.ullist-contaier ul li:nth-child(3) input {
+/* .ullist-contaier ul li:nth-child(3) input {
   background-color: rgba(0, 255, 0, 0.05);
 
   padding-left: 48px;
@@ -148,7 +148,7 @@ input {
 .ullist-contaier ul li:nth-child(4) input {
   background-color: rgba(0, 0, 255, 0.05);
   padding-left: 48px;
-}
+} */
 .ullist-contaier ul li:first-child ::placeholder {
   color: red;
 }
@@ -179,7 +179,7 @@ input {
   background-position: 16px center;
   top: 20px;
 } */
-.ullist-contaier ul li:nth-child(3) input {
+/* .ullist-contaier ul li:nth-child(3) input {
   background-image: url(iconoir_chat-remove.svg);
   background-repeat: no-repeat;
   background-position: 16px center;
@@ -194,7 +194,7 @@ input {
 .ullist-contaier input {
   border: 1px solid transparent;
   outline: none;
-}
+} */
 li:nth-child(1) {
   width: 288px;
   height: 56px;
@@ -207,7 +207,10 @@ li:nth-child(1) {
   font-weight: 500;
   padding-left: 48px;
   padding-top: 17px;
-  color: red;
+  color: rgba(255, 85, 85, 1);
+  background-image: url(Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
 }
 li:nth-child(2) {
   width: 288px;
@@ -220,9 +223,98 @@ li:nth-child(2) {
   font-weight: 500;
   padding-left: 48px;
   padding-top: 17px;
-  color: yellow;
+  color: rgba(255, 178, 30, 1);
   background-image: url(iconoir_brain.svg);
   background-repeat: no-repeat;
   background-position: 16px center;
   top: 20px;
+}
+li:nth-child(3) {
+  width: 288px;
+  height: 56px;
+  background-color: rgba(0, 255, 0, 0.05);
+  border-radius: 12px;
+  color: rgba(0, 187, 143, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 48px;
+  padding-top: 17px;
+  background-image: url(iconoir_chat-remove.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  top: 20px;
+}
+li:nth-child(4) {
+  width: 288px;
+  height: 56px;
+  background-color: rgba(0, 0, 255, 0.05);
+  border-radius: 12px;
+  color: rgba(17, 37, 214, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 48px;
+  padding-top: 17px;
+  background-image: url(iconoir_eye-empty.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+.li1Class {
+  position: absolute;
+  left: 200px;
+  top: 17px;
+}
+/* .li2Class ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+} */
+li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 100px;
+}
+.li2Class {
+  position: absolute;
+  left: 628px;
+}
+.li1Class {
+  color: rgba(48, 59, 89, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+b {
+  opacity: 50%;
+}
+.li2Class {
+  color: rgba(48, 59, 89, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 141.5px;
+}
+.li3Class {
+  color: rgba(48, 59, 89, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.li4Class {
+  color: rgba(48, 59, 89, 1);
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  right: 220px;
+}
+span {
+  position: absolute;
+  left: 168px;
+  width: 256px;
+  height: 56px;
+  opacity: 50%;
 }
